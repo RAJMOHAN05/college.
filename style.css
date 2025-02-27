@@ -1,0 +1,236 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+.header {
+    background-color: darkorange;
+    padding: 10px 0;
+}
+
+.update-bar {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-left: 20px;
+    color: rgb(231, 36, 36);
+    background-color: white;
+    display: flex;
+}
+
+.live {
+    color: black;
+    width: 80%;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10%;
+    background-color: #fff;
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.1);
+}
+
+.logo img {
+    height: 80px;
+}
+
+.institute-name h1 {
+    font-size: 28px;
+    color: #333;
+    margin-left: 20px;
+}
+
+.nav-links a {
+    margin-left: 20px;
+    font-size: 16px;
+    color: #333;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: darkorange;
+}
+
+.hero-section img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.content-section {
+    padding: 40px 10%;
+    text-align: center;
+}
+
+.content-section h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: darkorange;
+}
+
+.content-section p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: darkorange;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #e67e22;
+}
+
+.footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+    margin-top: 40px;
+}
+.messages-section {
+    display: flex;
+    flex-direction: column;
+    padding: 40px 10%;
+    background-color: #f9f9f9;
+    margin-top: 40px;
+    gap: 40px; 
+}
+
+.message-card {
+    display: flex;
+    align-items: flex-start; 
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.message-image img {
+    width: 150px;
+    height: auto;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.message-content {
+    flex: 1; 
+    text-align: left; 
+}
+
+.message-content h2 {
+    font-size: 24px;
+    color: darkorange;
+    margin-bottom: 15px;
+}
+
+.message-content p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.message-content strong {
+    color: #333;
+    font-weight: 600;
+}
+.gallery-section {
+    padding: 40px 10%;
+    text-align: center;
+}
+
+.gallery-section h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: darkorange;
+}
+
+.gallery-images {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.gallery-image {
+    width: 150px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.gallery-image:hover {
+    transform: scale(1.1);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+.video-section {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.video-section h3 {
+    font-size: 24px;
+    color: darkorange;
+    margin-bottom: 20px;
+}
+
+video {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 100%; /* Ensures the video is responsive */
+}
+/* Dev Box for Important Messages */
+.dev-box {
+    background-color: #fff;
+    padding: 20px;
+    margin: 40px 10%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.dev-box h2 {
+    font-size: 24px;
+    color: darkorange;
+    margin-bottom: 20px;
+}
+
+.dev-box ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.dev-box ul li {
+    font-size: 16px;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+}
+
+.dev-box ul li:hover {
+    background-color: #e6e6e6;
+}
+
+.dev-box ul li strong {
+    color: darkorange;
+}
