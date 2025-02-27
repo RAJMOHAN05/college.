@@ -22,7 +22,8 @@
         <div class="institute-name">
             <h1>Department of Mechanical Engineering, S.I.T BBSR</h1>
         </div>
-        <div class="nav-links">
+        <button class="hamburger" onclick="toggleMenu()">&#9776;</button>
+        <div class="nav-links" id="navLinks">
             <a href="index.html">Home</a>
             <a href="#">About Us</a>
             <a href="#">Academics</a>
@@ -40,37 +41,47 @@
             <a href="RAC LAB.jpeg" target="_blank">
                 <img src="RAC LAB.jpeg" alt="RAC LAB" class="gallery-image">
             </a>
-            
             <a href="DESIGN PROJECT LAB.jpeg" target="_blank">
                 <img src="DESIGN PROJECT LAB.jpeg" alt="DESIGN PROJECT LAB" class="gallery-image">
             </a>
-            
             <a href="HT LAB.jpeg" target="_blank">
                 <img src="HT LAB.jpeg" alt="HT LAB" class="gallery-image">
             </a>
-            
             <a href="MACHINE DYNAMICS LAB.jpeg" target="_blank">
                 <img src="MACHINE DYNAMICS LAB.jpeg" alt="MACHINE DYNAMICS LAB" class="gallery-image">
             </a>
-            
             <a href="WhatsApp Image 2025-02-11 at 6.43.26 PM.jpeg" target="_blank">
                 <img src="WhatsApp Image 2025-02-11 at 6.43.26 PM.jpeg" alt="College" class="gallery-image">
             </a>
-            
         </div>
-                <!-- Video Section -->
-                <div class="video-section">
-                    <h3>Working time</h3>
-                    <video controls width="600">
-                        <source src="WORKSHOP4.mp4" type="video/mp4">
-                        <source src="campus-tour.ogg" type="video/ogg">
-                        Your browser does not support the video tag.
-                    </video>
-                </div>
+
+        <!-- Video Section -->
+        <div class="video-section">
+            <h3>Watch Our Campus Tour</h3>
+            <video controls width="600">
+                <source src="WORKSHOP4.mp4" type="video/mp4">
+                <source src="campus-tour.ogg" type="video/ogg">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+    </div>
+
+    <!-- Modal Structure -->
+    <div id="imageModal" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="modalImage">
     </div>
 
     <div class="footer">
+        <div class="social-media">
+            <a href="https://www.instagram.com/dibyaprakash__barik/" target="_blank" class="instagram-icon">
+                <i class="fab fa-instagram"> Dibya PRAKASH Barik</i>
+            </a>
+        </div>
         <p>&copy; 1999 Synergy Institute of Technology. All rights reserved.</p>
-    </div>
+        <p>Made by Dibya PRAKASH Barik</p>
+</div>
+
+    <script src="script.js"></script>
 </body>
 </html>
