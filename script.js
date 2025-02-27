@@ -36,8 +36,15 @@ backToTopButton.onclick = function() {
     document.body.scrollTop = 0; 
     document.documentElement.scrollTop = 0; 
 }
-// Toggle the mobile menu
 function toggleMenu() {
     var navLinks = document.getElementById("navLinks");
     navLinks.classList.toggle("active");
+}
+window.onclick = function(event) {
+    var navLinks = document.getElementById("navLinks");
+    var hamburger = document.querySelector(".hamburger");
+
+    if (event.target !== hamburger && !navLinks.contains(event.target)) {
+        navLinks.classList.remove("active");
+    }
 }
