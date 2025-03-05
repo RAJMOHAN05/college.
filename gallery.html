@@ -5,16 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gallery - Synergy Institute of Technology</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
 </head>
 <body>
+    <!-- Header Section -->
     <div class="header">
         <div class="update-bar">
-            <nav><b>UPDATE :</b></nav>
+            <nav><b>UPDATE:-</b></nav>
             <marquee class="live" direction="left">All latest updates can be checked here. For any doubts, contact us through the given number.</marquee>
         </div>
     </div>
 
+    <!-- Navigation Bar -->
     <div class="navbar">
         <div class="logo">
             <img src="Synergy-Logo.gif" alt="Synergy Logo" id="logo">
@@ -32,33 +35,40 @@
         </div>
     </div>
 
+    <!-- Gallery Section -->
     <div class="gallery-section">
-        <h2>Mechanical department</h2>
+        <h2>Mechanical Department</h2>
         <div class="gallery-images">
-            <a href="RESEARCH LAB.jpeg" target="_blank">
+            <div class="image-container">
                 <img src="RESEARCH LAB.jpeg" alt="RESEARCH LAB" class="gallery-image">
-            </a>
-            <a href="RAC LAB.jpeg" target="_blank">
+                <div class="image-caption">Research Lab</div>
+            </div>
+            <div class="image-container">
                 <img src="RAC LAB.jpeg" alt="RAC LAB" class="gallery-image">
-            </a>
-            <a href="DESIGN PROJECT LAB.jpeg" target="_blank">
+                <div class="image-caption">RAC Lab</div>
+            </div>
+            <div class="image-container">
                 <img src="DESIGN PROJECT LAB.jpeg" alt="DESIGN PROJECT LAB" class="gallery-image">
-            </a>
-            <a href="HT LAB.jpeg" target="_blank">
+                <div class="image-caption">Design Project Lab</div>
+            </div>
+            <div class="image-container">
                 <img src="HT LAB.jpeg" alt="HT LAB" class="gallery-image">
-            </a>
-            <a href="MACHINE DYNAMICS LAB.jpeg" target="_blank">
+                <div class="image-caption">HT Lab</div>
+            </div>
+            <div class="image-container">
                 <img src="MACHINE DYNAMICS LAB.jpeg" alt="MACHINE DYNAMICS LAB" class="gallery-image">
-            </a>
-            <a href="WhatsApp Image 2025-02-11 at 6.43.26 PM.jpeg" target="_blank">
+                <div class="image-caption">Machine Dynamics Lab</div>
+            </div>
+            <div class="image-container">
                 <img src="WhatsApp Image 2025-02-11 at 6.43.26 PM.jpeg" alt="College" class="gallery-image">
-            </a>
+                <div class="image-caption">Campus View</div>
+            </div>
         </div>
 
         <!-- Video Section -->
         <div class="video-section">
-            <h3>Working Time</h3>
-            <video controls width="600">
+            <h3>Watch Our Campus Tour</h3>
+            <video controls>
                 <source src="WORKSHOP4.mp4" type="video/mp4">
                 <source src="campus-tour.ogg" type="video/ogg">
                 Your browser does not support the video tag.
@@ -66,21 +76,22 @@
         </div>
     </div>
 
-    <!-- Modal Structure -->
+    <!-- Modal for Image Popup -->
     <div id="imageModal" class="modal">
         <span class="close">&times;</span>
         <img class="modal-content" id="modalImage">
     </div>
 
+    <!-- Footer Section -->
     <div class="footer">
         <div class="social-media">
-            <a href="https://www.instagram.com/dibyaprakash__barik/" target="_blank" class="instagram-icon">
-                <i class="fab fa-instagram"> Dibya PRAKASH Barik</i>
+            <a href="https://www.instagram.com/dibyaprakash__barik/" target="_blank" class="social-icon">
+                <i class="fab fa-instagram"></i> Dibya PRAKASH Barik
             </a>
         </div>
         <p>&copy; 1999 Synergy Institute of Technology. All rights reserved.</p>
         <p>Made by Dibya PRAKASH Barik</p>
-</div>
+    </div>
 
     <script src="script.js"></script>
 </body>
